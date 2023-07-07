@@ -1,0 +1,101 @@
+.app {
+    height: 100vh;
+    display: flex;
+    background-color: #020230;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+
+    .main {
+        width: 75%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230), url("./images/Bg2.jpg") center;
+        display: flex;
+        flex-direction: column;
+
+        .endOption {
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+            width: 40%;
+            height: 5%;
+
+            background: linear-gradient(#0e0124, #22074d);
+
+            border-radius: 11px;
+            border: 2px solid white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 175%;
+        }
+
+        .top {
+            height: 35%;
+            position: relative;
+
+            .timer {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: 5px solid white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 30px;
+                font-weight: 700;
+                position: absolute;
+                bottom: 10px;
+                left: 80px;
+                background: linear-gradient(#0e0124, #22074d);
+            }
+        }
+
+        .bottom {
+            height: 55%;
+        }
+    }
+
+    .pyramid {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .money-list {
+            list-style: none;
+            width: 100%;
+            padding: 20px;
+
+            .money-list-item {
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                border-radius: 11px;
+
+                border: 2px solid white;
+                margin: 5px 0px 5px 0px;
+
+                .money-list-item-number {
+                    font-size: 20px;
+                    font-weight: 100;
+                    width: 30%;
+                }
+
+                .money-list-item-amount {
+                    font-size: 22.5px;
+                    font-weight: 300;
+                }
+            }
+
+            .active {
+                background-color: teal;
+            }
+        }
+    }
+
+}
