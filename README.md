@@ -1,6 +1,6 @@
 # Project-QuizProgram
 
-yagizquizproject.netlify.app
+https://yagizquizproject.netlify.app
 
 -> There is my project link.
 
